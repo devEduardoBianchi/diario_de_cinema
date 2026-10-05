@@ -1,0 +1,26 @@
+# Dependências e arquivos temporários locais
+node_modules/
+tmp/
+*.log
+
+# Configuração local: mantenha apenas um exemplo sem segredos, se necessário
+.env
+.env.*
+!.env.example
+*.local
+
+# Bancos de dados e cópias locais
+*.db
+*.sqlite
+*.sqlite3
+
+# Chaves e certificados privados
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
